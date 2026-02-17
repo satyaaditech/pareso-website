@@ -4,7 +4,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: process.env.NODE_ENV === 'production' ? '/pareso-website' : '',
+  basePath: '/pareso-website',
+  assetPrefix: '/pareso-website/',
 };
 
 export default nextConfig;
